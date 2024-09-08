@@ -43,18 +43,18 @@ Clona el repositorio y usa Docker Compose para construir y gestionar los servici
 1. **Clonar el Repositorio**
 
     ```bash
-    git clone https://github.com/JPabloAviOli/Spring-Security-Login.git
+    git clone https://github.com/JPabloAviOli/product-api.git
     ```
 
 2. **Navegar al Directorio del Proyecto o abrir en el IDE de tu preferencia**
 
     ```bash
-    cd api-product
+    cd product-api
     ```
 
 3. **Configurar Variables de Entorno**
 
-    Crea un archivo `.env` en la raíz del proyecto con las siguientes variables y utiliza como guia el archivo `.env-template`:
+    Crea un archivo `.env` en la raíz del proyecto con las siguientes variables y utiliza como guia el archivo `.env.template`:
 
     ```env
     MYSQL_ROOT_PASSWORD=your_root_password
@@ -75,9 +75,9 @@ Clona el repositorio y usa Docker Compose para construir y gestionar los servici
 
 5. **Acceder a la Aplicación**
 
-- La aplicación estará disponible en [http://localhost:8080](http://localhost:8090).
+- La aplicación de la api estará disponible en [http://localhost:8090](http://localhost:8090).
 - La base de datos MySQL estará disponible en el puerto 3307.
-- La interfaz de usuario estará disponible en [http://localhost:5173](http://localhost:5173)
+- La interfaz de usuario estará disponible en [http://localhost:5173](http://localhost:5173).
 
 6. **Detener los Servicios**
    
