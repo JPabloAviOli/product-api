@@ -111,8 +111,25 @@ En la interfaz, también puedes cambiar el estado de disponibilidad de un produc
 
 ![Cambiar Disponibilidad](https://github.com/user-attachments/assets/156eaf1f-f31f-4790-b67c-297705b79490)
 
-## Desafíos y Aprendizajes
+## Desafíos y Aprendizaje
 
+### Conexión de React con el Backend
+Uno de los principales desafíos en este proyecto fue establecer una comunicación fluida entre la aplicación frontend desarrollada en React y el backend construido con Spring Boot. Asegurarse de que las llamadas a la API funcionaran correctamente, manejando CORS, autenticación y validación de datos, fue una parte crucial del proceso. Además, optimizar las solicitudes para que fueran eficientes y manejar errores de manera efectiva requirió un enfoque cuidadoso y pruebas exhaustivas.
+
+**Aprendizaje clave**:
+- Manejo de CORS y configuración de la seguridad en Spring Boot para permitir las solicitudes desde React.
+- Implementación de validación en ambos lados (frontend y backend) para asegurar la integridad de los datos.
+- Uso de herramientas como Axios en React para gestionar las peticiones HTTP de manera más sencilla y eficiente.
+
+### Dockerización de la Aplicación React
+Otro gran reto fue dockerizar la aplicación React. Esto implicó crear un archivo Dockerfile optimizado que pudiera compilar y servir la aplicación en un entorno de producción. También fue necesario configurar correctamente el `docker-compose.yml` para que React pudiera funcionar junto con la base de datos MySQL y el backend de Spring Boot, asegurando que todos los contenedores se comunicaran entre sí de manera efectiva.
+
+**Aprendizaje clave**:
+- Creación de un Dockerfile para una aplicación React, optimizando tanto el tamaño de la imagen como el tiempo de construcción.
+- Configuración de variables de entorno para manejar diferentes configuraciones entre entornos de desarrollo y producción.
+- Integración de la aplicación React en el ecosistema Docker junto con otros servicios (API y base de datos) usando Docker Compose.
+
+Estos desafíos no solo fortalecieron mis habilidades en desarrollo full-stack, sino que también me proporcionaron una comprensión más profunda de cómo funcionan las aplicaciones web modernas en un entorno containerizado.
 
 ## Contribuciones
 
