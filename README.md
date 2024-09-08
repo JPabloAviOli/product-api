@@ -73,7 +73,10 @@ Clona el repositorio y usa Docker Compose para construir y gestionar los servici
 
     Esto iniciará todos los servicios necesarios para tu aplicación en modo "detach" (en segundo plano).
 
-5. **Acceder a la Aplicación**
+    Docker Compose descargará automáticamente las imágenes desde mi repositorio en [Docker Hub](https://hub.docker.com/repositories/jpabloavioli) y levantará los contenedores. Una vez que los contenedores estén en funcionamiento, 
+    podrás acceder a la aplicación en tu navegador.
+
+6. **Acceder a la Aplicación**
 
 - La aplicación de la api estará disponible en [http://localhost:8090](http://localhost:8090).
 - La base de datos MySQL estará disponible en el puerto 3307.
