@@ -86,4 +86,11 @@ Clona el repositorio y usa Docker Compose para construir y gestionar los servici
     ```bash
     docker compose down
     ```
+### Vista previa de la interfaz de usuario
+- A continuación, se presentan algunas capturas de pantalla de la interfaz de usuario creada con React y Tailwind CSS.
 
+![agregar-producto](https://github.com/user-attachments/assets/0b280182-16c8-41a6-95a9-ebf7b5d693a2)
+
+![editar-producto](https://github.com/user-attachments/assets/77d4e6e5-3b51-4bd3-83ed-2ad31983780e)
+
+![disponible](https://github.com/user-attachments/assets/156eaf1f-f31f-4790-b67c-297705b79490)
