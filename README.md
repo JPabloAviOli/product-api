@@ -94,6 +94,8 @@ Clona el repositorio y usa Docker Compose para construir y gestionar los servici
 
 ## Funcionalidades de la Interfaz de Usuario
 
+![principal](https://github.com/user-attachments/assets/99c21b82-4cb9-4a00-a04c-ea483eafdf45)
+
 ### 1. Agregar un Producto
 En la interfaz de usuario, puedes agregar un nuevo producto utilizando un formulario sencillo. Completa los campos necesarios y haz clic en **Agregar Producto** para enviarlo al backend.
 
