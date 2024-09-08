@@ -90,13 +90,24 @@ Clona el repositorio y usa Docker Compose para construir y gestionar los servici
     docker compose down
     ```
 ### Vista previa de la interfaz de usuario
-- A continuación, se presentan algunas capturas de pantalla de la interfaz de usuario creada con React y Tailwind CSS.
+- **A continuación, se presentan algunas capturas de pantalla de la interfaz de usuario creada con React y Tailwind CSS**.
 
-![agregar-producto](https://github.com/user-attachments/assets/0b280182-16c8-41a6-95a9-ebf7b5d693a2)
+## Funcionalidades de la Interfaz de Usuario
 
-![editar-producto](https://github.com/user-attachments/assets/77d4e6e5-3b51-4bd3-83ed-2ad31983780e)
+### 1. Agregar un Producto
+En la interfaz de usuario, puedes agregar un nuevo producto utilizando un formulario sencillo. Completa los campos necesarios y haz clic en **Agregar Producto** para enviarlo al backend.
 
-![disponible](https://github.com/user-attachments/assets/156eaf1f-f31f-4790-b67c-297705b79490)
+![Agregar Producto](https://github.com/user-attachments/assets/0b280182-16c8-41a6-95a9-ebf7b5d693a2)
+
+### 2. Editar un Producto
+Al hacer clic en el botón **Editar** en la lista de productos, se abrirá un formulario con los datos del producto precargados. Esto te permite modificar la información existente de manera rápida y sencilla.
+
+![Editar Producto](https://github.com/user-attachments/assets/77d4e6e5-3b51-4bd3-83ed-2ad31983780e)
+
+### 3. Cambiar la Disponibilidad de un Producto
+En la interfaz, también puedes cambiar el estado de disponibilidad de un producto utilizando un control booleano. Esta acción interactúa directamente con un endpoint en el backend para actualizar el estado en la base de datos.
+
+![Cambiar Disponibilidad](https://github.com/user-attachments/assets/156eaf1f-f31f-4790-b67c-297705b79490)
 
 ## Desafíos y Aprendizajes
 
