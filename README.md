@@ -155,4 +155,3 @@ Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](L
 - [Documentación de Docker](https://docs.docker.com/)
 - [Documentación de Docker Compose](https://docs.docker.com/compose/)
 - [Documentación de SpringDoc](https://springdoc.org/#getting-started)
-- [JWT](https://jwt.io/)
