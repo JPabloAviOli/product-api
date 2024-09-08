@@ -1,0 +1,48 @@
+services:
+  db-mysql:
+    container_name: product-database
+    image: mysql:8.0.33
+    ports:
+      - "3307:3306"
+    volumes:
+      - product-volume:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    networks:
+      - product-network
+    restart: always
+
+  product-api:
+    container_name: product-api
+    depends_on:
+      - db-mysql
+    image: jpabloavioli/product-api
+    ports:
+      - "8090:8080"
+    env_file:
+      - .env
+    networks:
+      - product-network
+    restart: always
+
+  react-app:
+    container_name: product-ui
+    depends_on:
+      - product-api
+    image: jpabloavioli/react-app-product:gow1
+    ports:
+      - "5173:5173"
+    networks:
+      - product-network
+
+volumes:
+  product-volume:
+    name: product-volume
+
+networks:
+  product-network:
+    name: product-network
+
