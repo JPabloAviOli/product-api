@@ -97,3 +97,32 @@ Clona el repositorio y usa Docker Compose para construir y gestionar los servici
 ![editar-producto](https://github.com/user-attachments/assets/77d4e6e5-3b51-4bd3-83ed-2ad31983780e)
 
 ![disponible](https://github.com/user-attachments/assets/156eaf1f-f31f-4790-b67c-297705b79490)
+
+## Desafíos y Aprendizajes
+
+
+## Contribuciones
+
+Si deseas contribuir al proyecto, sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una rama para tu feature o bug fix (`git checkout -b feature/mi-feature`).
+3. Realiza tus cambios y haz commit (`git commit -am 'Añadida nueva feature'`).
+4. Push a la rama (`git push origin feature/mi-feature`).
+5. Abre un pull request.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
+
+## Autor
+
+- **Jesús Pablo Avila Olivar** - Autor principal [LinkedIn](https:/https://www.linkedin.com/in/pablo-avila-olivar/)
+
+## Enlaces Útiles
+
+- [Documentación de Spring Boot](https://spring.io/projects/spring-boot)
+- [Documentación de Docker](https://docs.docker.com/)
+- [Documentación de Docker Compose](https://docs.docker.com/compose/)
+- [Documentación de SpringDoc](https://springdoc.org/#getting-started)
+- [JWT](https://jwt.io/)
