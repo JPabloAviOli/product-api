@@ -22,7 +22,7 @@ Product-api es una API REST desarrollada para la gestión de productos. Implemen
 
 7. **Simplificación del código con Lombok** (opcional): Uso de Lombok para reducir la cantidad de código repetitivo, como getters, setters y constructores, haciendo el código más limpio y legible.
 
-8. **Interfaz de Usuario con React y Tailwind CSS**: Creación de una interfaz sencilla para la gestión de productos utilizando React y Tailwind CSS, proporcionando una experiencia de usuario moderna y responsiva.
+8. **Interfaz de Usuario con React y Tailwind CSS**: Creación de una interfaz sencilla para la gestión de productos utilizando React y Tailwind CSS, proporcionando una experiencia de usuario moderna y responsiva. [Curso de React](https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones)
 
 ## Instalación y Configuración
 
